@@ -12,7 +12,6 @@ class Student
   def self.create_from_collection(students_array)
     students_array.each do |student_hash|
       student = Student.new(student_hash)
-      student 
     end 
   end
 
